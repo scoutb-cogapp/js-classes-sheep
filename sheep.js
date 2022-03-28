@@ -22,7 +22,8 @@ class Sheep {
     
     // create and return id for each individual sheep
     createID() {
-        return `00${sheepNumber}`;
+        const id = 100 + sheepNumber;
+        return String(id);
     }
 
     // add new sheep instance to an array holding all sheep
