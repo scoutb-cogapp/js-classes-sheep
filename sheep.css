@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+
+#sheepButton {
+    background-color: white; /* Green */
+    color: darkblue;
+    padding: 15px 32px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  #sheepPen {
+      margin: 15px;
+  }

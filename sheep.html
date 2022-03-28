@@ -1,0 +1,26 @@
+<!-- 
+    Have a html page that has a button on it, and an empty div <div id="sheep-container></div>
+    
+    When clicked it adds a new div to the empty one, with some text inside it that reads Sheep  then the number of the sheep starting from 0, and also has an id sheep-  then the number starting from 0
+    
+    It does the above using a class that is called using new Sheep() whenever the button is clicked 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="./sheep.css" type="text/css" rel="stylesheet">
+        <title> Classy sheep page </title>
+    </head>
+
+
+    <body>
+        <button id="sheepButton" onclick="initiateSheep()">
+            add sheep
+            <script src="./sheep.js"></script>
+        </button>
+
+        <div id="sheepPen">
+        </div>
+    </body>
+</html>
