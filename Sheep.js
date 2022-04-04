@@ -7,7 +7,7 @@ class Sheep {
   }
 
   countSheep() {
-    return document.querySelectorAll(".sheep").length;
+    return this.sheepPenEl.querySelectorAll(".sheep").length;
   }
 
   #addSheepToPage() {
