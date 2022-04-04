@@ -1,6 +1,7 @@
 class Sheep {
-  constructor() {
+  constructor(options) {
     console.log("bah");
+    this.sheepPenEl = options.sheepPenEl;
     this.id = this.countSheep() + 1;
     this.#addSheepToPage();
   }
@@ -14,6 +15,6 @@ class Sheep {
     sheepEl.classList.add("sheep");
     sheepEl.id = `sheep-${this.id}`;
     sheepEl.innerHTML = `Sheep number ${100 + this.id} (ID: ${this.id})`;
-    document.getElementById("sheepPen").appendChild(sheepEl);
+    this.sheepPenEl.appendChild(sheepEl);
   }
 }
